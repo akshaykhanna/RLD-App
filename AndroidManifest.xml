@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.akby.rld"
+    android:versionCode="1"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+      <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.CALL_PHONE" />
+   
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   
+      
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Rld_theme" >
+        <activity
+            android:name="com.akby.rld.SpalshScreenActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Holo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.akby.rld.GalleryActivity" 
+            android:label="@string/app_name" >
+            </activity>
+              <activity
+            android:name="com.akby.rld.RLD_About" 
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.akby.rld.RLD" 
+            android:label="@string/app_name" >
+            </activity>
+        <activity
+            android:name="com.akby.rld.ListMenu"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.akby.rld.WebSite"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.akby.rld.RSSreader"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.akby.rld.JoinParty"
+            android:label="@string/app_name" >
+            </activity>
+             <activity
+            android:name="com.akby.rld.JoinPartyFirst"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.akby.rld.Contact"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.akby.rld.About"
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.akby.rld.MainActivity" 
+            android:label="@string/app_name" >
+            </activity>
+            <activity
+            android:name="com.akby.rld.WebView2015" 
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            >
+            </activity>
+            <activity
+            android:name="com.akby.rld.WebViewYouTube" 
+            android:label="@string/app_name" 
+            >
+              </activity>
+            <activity android:name="com.akby.rld.YoutubeActivity"
+    >
+      </activity>
+ 
+<activity android:name="com.akby.rld.PlayerActivity"
+    android:screenOrientation="landscape" />
+            
+    </application>
+
+</manifest>

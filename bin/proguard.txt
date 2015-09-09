@@ -1,0 +1,88 @@
+# view AndroidManifest.xml #generated:67
+-keep class com.akby.rld.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.akby.rld.Contact { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.akby.rld.GalleryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.akby.rld.JoinParty { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.akby.rld.JoinPartyFirst { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.akby.rld.ListMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.akby.rld.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.akby.rld.PlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.akby.rld.RLD { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.akby.rld.RLD_About { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.akby.rld.RSSreader { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.akby.rld.SpalshScreenActivity { <init>(...); }
+
+# view res/layout/gridview_item.xml #generated:8
+-keep class com.akby.rld.SquareImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.akby.rld.WebSite { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.akby.rld.WebView2015 { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.akby.rld.WebViewYouTube { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.akby.rld.YoutubeActivity { <init>(...); }
+
+# view res/layout/youtube_player_lay.xml #generated:7
+-keep class com.google.android.youtube.player.YouTubePlayerView { <init>(...); }
+
+# onClick res/layout/rss_lay.xml #generated:70
+-keepclassmembers class * { *** fetch(...); }
+
+# onClick res/layout/join_party_lay.xml #generated:53
+# onClick res/layout/join_party_lay_first.xml #generated:39
+-keepclassmembers class * { *** giveMissedCall(...); }
+
+# onClick res/layout/join_party_lay_first.xml #generated:7
+-keepclassmembers class * { *** joinParty(...); }
+
+# onClick res/layout/rld_about.xml #generated:18
+-keepclassmembers class * { *** methodElection(...); }
+
+# onClick res/layout/rld_about.xml #generated:52
+-keepclassmembers class * { *** methodInspiration(...); }
+
+# onClick res/layout/rld_about.xml #generated:28
+-keepclassmembers class * { *** methodMLA(...); }
+
+# onClick res/layout/rld_about.xml #generated:39
+-keepclassmembers class * { *** methodRLD_About(...); }
+
+# onClick res/layout/join_party_lay_first.xml #generated:24
+-keepclassmembers class * { *** onlineMembership(...); }
+
+# onClick res/layout/contact_lay.xml #generated:62
+-keepclassmembers class * { *** openFbInBrowser(...); }
+
+# onClick res/layout/contact_lay.xml #generated:76
+-keepclassmembers class * { *** openInstagramInBrowser(...); }
+
+# onClick res/layout/contact_lay.xml #generated:69
+-keepclassmembers class * { *** openTweeterInBrowser(...); }
+
